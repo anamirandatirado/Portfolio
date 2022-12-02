@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Italiana', serif;
+}
+
+header {
+    background-color: #F3EED9;
+    position: fixed;
+    width: 100%;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1290px;
+    justify-content: space-between;
+}
+
+header #logoheader {
+    width: 50%;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+    font-family: 'Italiana', serif;
+
+}
+
+.links1 a {
+    align-items: flex-start;
+    color: #332828;
+    padding: 24px;
+    text-decoration: none;
+}
+
+
+
+.links2 {
+    display: flex;
+    flex-direction: row;
+}
+
+nav img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 34px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #332828;
+
+}
+
+.page {
+    width: 90%;
+    max-width: 1290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 93px;
+
+}
+
+#intro {
+    width: 90%;
+    max-width: 1290px;
+    margin-left: 105px;
+    margin-top: 95px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#intro h2 {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #F3EED9;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 19px;
+}
+
+.descripcion img {
+    width: 437px;
+    height: 546px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #F3EED9;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+    margin:64px;
+}
+
+p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 45px;
+    color: #F3EED9;
+}

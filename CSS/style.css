@@ -1,0 +1,470 @@
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #F3EED9;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#headermobile {
+    display: none;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1290px;
+    justify-content: space-between;
+}
+
+header #logoheader {
+    width: 50%;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+    font-family: 'Italiana', serif;
+
+}
+
+.links1 a {
+    align-items: flex-start;
+    color: #332828;
+    padding: 24px;
+    text-decoration: none;
+}
+
+
+
+.links2 {
+    display: flex;
+    flex-direction: row;
+}
+
+nav img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 34px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #F3EED9;
+    z-index: -1;
+}
+
+#abovethefold {
+    width: 100%;
+    max-width: 1366px;
+}
+
+#circulorosa1 {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: -27px;
+    top: 92px;
+    z-index: 0;
+}
+
+#circulonegro1 {
+    position: absolute;
+    width: 170px;
+    height: 312px;
+    left: 1310px;
+    top: 284px;
+    z-index: 0;
+}
+
+#circulomorado1 {
+    position: absolute;
+    width: 170px;
+    height: 312px;
+    left: 1360px;
+    top: 345px;
+    z-index: 0;
+}
+
+#circulonegro2 {
+    position: absolute;
+    width: 110px;
+    height: 64px;
+    left: 1365px;
+    top: 2486px;
+    z-index: 0;
+}
+
+#circulomorado2 {
+    position: absolute;
+    width: 170px;
+    height: 312px;
+    left: -24px;
+    top: 1520px;
+    z-index: 0;
+}
+
+h1 {
+    padding: 174px;
+    width: 943px;
+    height: 324px;
+    left: 105px;
+    top: 236px;
+    font-size: 64px;
+    color: #332828;
+    font-family: 'Italiana', serif;
+    line-height: 75px;
+    z-index: 1;
+}
+
+.arrow1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+p {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#pantallaproyecto1 {
+    background-color: #332828;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+
+#ultimosproyectos {
+    width: 90%;
+    max-width: 1290px;
+    margin-left: 105px;
+    margin-top: 95px;
+    margin-bottom: 192px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 64px;
+    color: #F3EED9;
+    font-family: 'Italiana', serif;
+    line-height: 75px;
+}
+
+.plantillaproyecto {
+    margin-top: 63px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 36px;
+}
+
+.plantillaproyecto img {
+    height: 509px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+
+.textuno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+h3 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #F3EED9;
+}
+
+p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 45px;
+    color: #F3EED9;
+}
+
+h4 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #F3EED9;
+}
+
+.cajas {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+
+.box1 {
+    background-color: #F96E7D;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    border-radius: 12px;
+
+}
+
+
+
+#pantallaproyecto2 {
+    background-color: #F3EED9;
+    width: 100%;
+
+}
+
+#otroproyecto {
+    width: 90%;
+    max-width: 1290px;
+    margin-left: 105px;
+    margin-top: 95px;
+    margin-bottom: 192px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plantillaproyecto2 {
+    margin-top: 63px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 36px;
+}
+
+.plantillaproyecto2 img {
+    height: 509px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.textdos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.textdos h3 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #332828;
+}
+
+.textdos p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 45px;
+    color: #332828;
+}
+
+.textdos h4 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #332828;
+}
+
+@media (max-width:443px) {
+    /* #abovethefold {
+        max-width: 443px;
+    } */
+
+    header {
+        display: none;
+    }
+
+    #headermobile {
+        display:flex;
+        background-color: #F3EED9;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+
+    }
+
+    #headermobile nav {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 443px;
+        justify-content: space-between;
+    }
+
+    #logoheadermobile {
+        width: 109px;
+        height: 24px;
+    }
+
+
+    h1 {
+        width: 320px;
+        font-size: 24px;
+        line-height: 28px;
+        padding-left: 50px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        display: flex;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3,
+    p {
+        font-size: 18px
+    }
+
+    h4 {
+        font-size: 16px
+    }
+
+    .textdos h3 {
+        font-size: 18px
+    }
+
+    .textdos p {
+        font-size: 18px;
+    }
+
+    .textdos h4 {
+        font-size: 16px
+    }
+
+    .textdos {
+        order: 2;
+    }
+
+    #abovethefold {
+        width: 100%;
+
+
+    }
+
+    #circulorosa1 {
+        width: 85px;
+        height: 85px;
+    }
+
+    #circulonegro1 {
+        display:none;
+    }
+
+    #circulomorado1 {
+       display:none;
+    }
+
+    #circulonegro2{
+        display:none;
+    }
+
+    #circulomorado2{
+        display:none;
+    }
+
+    #ultimosproyectos {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        gap: 24px;
+        margin-left: 20px;
+        margin-top: 12;
+        margin-bottom: 12;
+        align-items: center;
+    }
+
+    #foto1 {
+        width: 201.26px;
+        height: 256.1px;
+        border: 100px;
+
+    }
+
+    #foto2 {
+        width: 201.26px;
+        height: 256.1px;
+        border: 100px;
+        order: 1;
+
+    }
+
+
+    .plantillaproyecto {
+        flex-direction: column;
+    }
+    
+    .cajas {
+        gap: 6px;
+    }
+
+    #otroproyecto {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        gap: 24px;
+        margin-left: 20px;
+        margin-top: 12;
+        margin-bottom: 12;
+        align-items: center;
+    }
+
+    .plantillaproyecto2 {
+        flex-direction: column;
+    }
+}
+
+/* 
+
+@keyframes holi {
+    para cambiar colores 0% {
+        cjps
+    }
+
+    25% {}
+}
+-
+:hover
